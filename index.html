@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-image: url("picture/background.png");
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            min-height: 100vh;
+        }
+
+        .menu{
+            background-color:rgb(59, 201, 240);
+            border-radius: 50px;
+            width: 700px;
+            height: 50px;
+
+            display: flex;
+            align-items: center;
+
+            position: absolute;
+            left: 40%;
+
+            box-shadow: -6px -6px 12px #79b3cb;
+        }
+
+        .menu nav{
+            width: 100%;
+            display: flex;
+            justify-content: space-evenly;
+        }
+
+        .menu nav a{
+            font-size: 25px;    
+        }
+
+        .hcn{
+            background-color: rgb(59, 201, 240);
+            height: 800px;
+            width: 100px;
+            box-shadow: 6px 6px -12px #79b3cb;
+        }
+
+        .tile{
+            position: absolute;
+            margin-top: -800px;
+            margin-left: 110px;
+
+            font-size: 60px;
+            font-family: sans-serif;
+        }
+        .nd{
+            font-size: 70px;
+            position: absolute;
+            margin-top: -700px;
+            margin-left: 110px;
+        }
+    </style>
+</head>
+<body>
+    <div class="menu">
+        <nav>
+            <u><a>Page 1</a></u>
+            <a>Gallery</a>
+            <a>donate</a>
+            <a>contact</a>
+        </nav>
+    </div>
+    <!---->
+    <div class="hcn">
+        <img src="picture/logo-removebg-preview.png" style="width: 100px">
+    </div>
+    <h1 class="tile">MAIN PAGE</h1>
+    <h6 class="nd">Welcome to<br><u>My website</u></h6>
+</body>
+</html>
