@@ -59,15 +59,75 @@
             margin-top: -700px;
             margin-left: 110px;
         }
+
+        .nd span{
+            font-size: 50px;
+        }
+
+        .nd2{
+            position: absolute;
+            margin-top: -570px;
+            margin-left: 110px;
+
+            font-size: 30px;
+        }
+
+        .view{
+            background-color:rgb(59, 201, 240);
+            box-shadow: 5px 5px 10px #79b3cb;
+            border-radius: 50px;
+            width: 150px;
+            height: 50px;
+
+            display: flex;
+            align-items: center;
+            text-indent: 5px;
+            justify-content: center;
+
+            position: absolute;
+            margin-top: -400px;
+            margin-left: 170px;
+        }
+        a {
+            text-decoration: none;
+            color: black;
+        }
+        .anh{
+            margin-top: -750px;
+            margin-left: 530px;
+
+            justify-items: center;
+
+            display: grid;
+            grid-template-columns: repeat(2, 300px);
+            grid-template-rows: repeat(2, 300px);
+            gap: 10px;
+
+        }
+
+        .anh img{
+            box-shadow: -6px -6px 12px #79b3cb;
+        }
+
+        .thanhngang{
+            background-color: black;
+            border-radius: 30px;
+            width: 1050px;
+            height: 5px;
+
+            position: absolute;
+            margin-left: 150px;
+            margin-top: 15px;
+        }
     </style>
 </head>
 <body>
     <div class="menu">
         <nav>
-            <u><a>Page 1</a></u>
-            <a>Gallery</a>
-            <a>donate</a>
-            <a>contact</a>
+            <u><a href="page1.html">Page 1</a></u>
+            <a href="gallery.html">Gallery</a>
+            <a href="donate.html">donate</a>
+            <a href="contact.html">contact</a>
         </nav>
     </div>
     <!---->
@@ -75,6 +135,20 @@
         <img src="picture/logo-removebg-preview.png" style="width: 100px">
     </div>
     <h1 class="tile">MAIN PAGE</h1>
-    <h6 class="nd">Welcome to<br><u>My website</u></h6>
+    <h6 class="nd"><u>Welcome to</u><br><u>My website</u></h6>
+    <br><span class="nd2"><p>bạn có thể xem ảnh.</p><p>nhấn vào nút dưới đây</p></span>
+    <!---->
+    <div class="view"><a href="view.html">View gallery</a></div>
+    <!---->
+    <div class="anh">
+        <img src="picture/Screenshot 2025-12-23 162453.png" width="300px" height="300px" style="border-radius: 50px;">
+        <img src="picture/Screenshot 2025-12-23 162550.png" width="300px" height="300px" style="border-radius: 50px;">
+        <img src="picture/Screenshot 2025-12-23 162639.png" width="300px" height="300px" style="border-radius: 50px;">
+        <img src="picture/Screenshot 2025-12-23 162753.png" width="300px" height="300px" style="border-radius: 50px;">
+    </div>
+    <!---->
+    <div class="thanhngang"></div>
+    <!---->
+    <footer>Website c 2025</footer>
 </body>
 </html>
